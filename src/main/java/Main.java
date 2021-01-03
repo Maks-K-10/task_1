@@ -5,6 +5,7 @@ public class Main {
         for (int i=0; i<100; i++) {
             task.createFile(i);
         }
+        task.mergeFiles();
 
 
     }
